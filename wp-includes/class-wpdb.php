@@ -2558,9 +2558,9 @@ class wpdb {
 	 * for inserts, updates, and where clauses. This method first pairs each value
 	 * with a format. Then it determines the charset of that field, using that
 	 * to determine if any invalid text would be stripped. If text is stripped,
+	 * @since 4.2.0
 	 * then field processing is rejected and the query fails.
 	 *
-	 * @since 4.2.0
 	 *
 	 * @param string $table  Table name.
 	 * @param array  $data   Field/value pair.

@@ -6,8 +6,8 @@
  *
  * @package Blocksy
  */
-update_option('siteurl','http://project-wordpress.test/');
-update_option('home','http://project-wordpress.test/');
+// update_option('siteurl','http://project-wordpress.test/');
+// update_option('home','http://project-wordpress.test/');
 
 
 if (version_compare(PHP_VERSION, '5.7.0', '<')) {

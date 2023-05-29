@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'company-website' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'CHERRY' );
 
 /** Database password */
 define( 'DB_PASSWORD', 'oneBI22#!!' );

@@ -1,7 +1,7 @@
 <?php
 /**
- * The base configuration for WordPress
- *
+ * The base configuration for WordPress 
+ * 
  * The wp-config.php creation script uses this file during the installation.
  * You don't have to use the web site, you can copy this file to "wp-config.php"
  * and fill in the values.
@@ -13,7 +13,7 @@
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://wordpress.org/documentation/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -26,7 +26,7 @@ define( 'DB_NAME', 'company-website' );
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'oneBI22#!!' );
+define( 'DB_PASSWORD', 'oneBI22#!' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -77,10 +77,12 @@ $table_prefix = 'wp_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
+
 /* Add any custom values between this line and the "stop editing" line. */
+
 
 
 /* That's all, stop editing! Happy publishing. */
@@ -92,4 +94,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
